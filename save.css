@@ -1,0 +1,31 @@
+  div.spining{
+    width: 100px;
+    height: 100px;
+    background-color: #2a6aff;
+    padding: 30px;
+    text-align: center;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+
+    animation-duration: 2s;
+    animation-name: spin;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes spin{
+    0%{
+
+    }
+    50%{
+      scale: 1.5;
+      /* transform: rotate(0deg); */
+    }
+    100%{
+      transform: rotate(360deg);
+      border-radius: 50%;
+    }
+  }
