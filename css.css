@@ -26,7 +26,7 @@ body {
     position: absolute;
     left: 50%;
     transform: translate(-50%, -75%);
-    color: white;
+    color: rgb(39, 49, 255);
     animation: slideDownTextPhone 1s ease forwards;
     animation-delay: 1s;
     font-family: "Bai Jamjuree", sans-serif;
